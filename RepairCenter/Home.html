@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta   charset="utf-8">
+    <meta   name="viewport" content="width=device-width, initial-scale=1">
+    <link   rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- custom -->
+    <link   rel="stylesheet" type="text/css" href='main.css'>
+</head>
+<body>
+        <!-- navbar-inverse-->
+<nav class="navbar navbar-inverse topnav">
+
+    <!-- topnav -->
+    <div class="container topnav">
+
+        <!-- Logo and Caret -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Repair Center</a>
+        </div>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav">
+                <!-- Locations -->
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-globe"></span> Locations <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">SomePlace</a></li>
+                      <li><a href="#">SomePlace</a></li>
+                      <li><a href="#">SomePlace</a></li>
+                      <li><a href="#">SomePlace</a></li>
+                    </ul>
+                </li>
+                <!-- Services -->
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Services <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Microsoldering</a></li>
+                      <li><a href="#">Replacement etc</a></li>
+                      <li><a href="#">Cleaning virus etc</a></li>
+                      <li><a href="#">Broken stuff etc</a></li>
+                    </ul>
+                </li>
+                <!-- Contact -->
+                <li><a href="contact.html"><span class="glyphicon glyphicon-comment"></span> Contact</a></li>
+                <form class="navbar-form navbar-left" action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Look for repair services" name="search">
+                    </div>
+                    <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search"></span></button>
+                </form>
+                    <li><a href="Cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                    <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div id="broCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#broCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#broCarousel" data-slide-to="1"></li>
+      <li data-target="#broCarousel" data-slide-to="2"></li>
+      <li data-target="#broCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Slide items -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/1.jpg">
+          <div class="carousel-caption">
+            <h3>Discount for this month only</h3>
+            <h2>Batteries</h2>
+            <p>During this month is only $29</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="img/2.jpg">
+          <div class="carousel-caption">
+            <h3>Discount for this month only</h3>
+            <h2>Screens</h2>
+            <p>Bring a second phone and get 10% off</p>
+          </div>      
+      </div>
+    
+      <div class="item">
+        <img src="img/3.jpg">
+          <div class="carousel-caption">
+            <h3>Discount for this month only</h3>  
+            <h2>Microchips</h2>
+            <p>If you get fixed 2 phones 3 is free</p>
+          </div>      
+      </div>
+    
+    
+     <div class="item">
+        <img src="img/4.jpg">
+          <div class="carousel-caption">
+            <h3>Discount for this month only</h3>
+            <h2>Touch repair</h2>
+            <p>Bring a second phone and get 70% off</p>
+          </div>      
+      </div>
+    
+    </div>
+
+
+    <!-- Left & right link -->
+    <a class="left carousel-control" href="#broCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
+    </a>
+
+    <a class="right carousel-control" href="#broCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </a>
+</div>
+
+<br/>
+<br/>
+
+
+<!-- thumbnails -->
+<div class="container">
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <img src="img/5.jpg">
+                <div class="caption">
+                    <h3>Battery replacement</h3>
+                    <p>We guarantee our work for 1 month, and first we're here to help! It's very important to us  spread good work, and to build good repair bussiness</p>
+                    <p><a href = "#" class = "btn btn-success" role = "button">Buy</a>
+                    <a href = "#" class = "btn btn-primary" role = "button">Add to cart</a></p>
+                </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <img src="img/6.jpg">
+                <div class="caption">
+                    <h3>Screen replacement</h3>
+                    <p>We guarantee our work for 1 month, and first we're here to help! It's very important to us  spread good work, and to build good repair bussiness</p>
+                    <p><a href = "#" class = "btn btn-success" role = "button">Buy</a>
+                    <a href = "#" class = "btn btn-primary" role = "button">Add to cart</a></p>
+                </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <img src="img/8.jpg">
+                <div class="caption">
+                    <h3>Chip replacement</h3>
+                    <p>We guarantee our work for 1 month, and first we're here to help! It's very important to us  spread good work, and to build good repair bussiness</p>
+                    <p><a href = "#" class = "btn btn-success" role = "button">Buy</a> 
+                    <a href = "#" class = "btn btn-primary" role = "button">Add to cart</a></p>
+                </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <img src="img/9.jpg">
+                <div class="caption">
+                    <h3>Speaker repair</h3>
+                    <p>We guarantee our work for 1 month, and first we're here to help! It's very important to us  spread good work, and to build good repair bussiness</p>
+                    <p><a href = "#" class = "btn btn-success" role = "button">Buy</a> 
+                    <a href = "#" class = "btn btn-primary" role = "button">Add to cart</a></p>
+                </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+    
